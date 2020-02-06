@@ -10,4 +10,9 @@ public class HelloController {
     public String index(){
         return "1234";
     }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello world";
+    }
 }
